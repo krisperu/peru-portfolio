@@ -22,11 +22,38 @@ body {
   justify-content: space-evenly;
 }
 
+.skill-cont {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* .skill {
+  padding: 5px;
+  background-color: rgba(121, 132, 166, 0.5);
+} */
+
 .img-crd {
   height: 200px;
   width: 300px;
 }
 
+.contact-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.divider {
+  border-right: solid rgb(70, 67, 67);
+  border-width: 0 3px 3px 0;
+}
+
 .title {
   font-size: 800%;
+}
+
+a {
+  color: white;
 }
