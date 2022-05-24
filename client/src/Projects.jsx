@@ -3,15 +3,26 @@ import React from 'react'
 function Projects() {
   return (
     <div className="project-container">
-        <h2>Projects</h2>
         <div className="project-card">
-            Before I Die
-            <img src="" alt="Before I Die" />
+            <div>Before I Die</div>
+            <img className="img-crd" src="https://res.cloudinary.com/dhqfwgeap/image/upload/v1653421550/abnnn8x510qrhnuvgbwm.png" alt="Before I Die" />
         </div>
-        <div className="project-card">Furbaby Sitters Club</div>
-        <div className="project-card">Reader</div>
-        <div className="project-card">Project Hopper</div>
-        <div className="project-card">Watch Out</div>
+        <div className="project-card">
+            <div>Furbaby Sitters Club</div>
+            <img className="img-crd" src="https://res.cloudinary.com/dhqfwgeap/image/upload/v1653421593/llxx5ek29iozckxripmk.png" alt="Furbaby Sitters Club" />
+        </div>
+        <div className="project-card">
+            <div>Reader</div>
+            <img className="img-crd" src="https://res.cloudinary.com/dhqfwgeap/image/upload/v1653421727/rbvuzsawgvqxmkbrfvsu.png" alt="Reader" />
+        </div>
+        <div className="project-card">
+            <div>Project Hopper</div>
+            <img className="img-crd" src="https://res.cloudinary.com/dhqfwgeap/image/upload/v1653421494/su4sh4wp1e3n9f7cqwag.png" alt="Project Hopper" />
+        </div>
+        <div className="project-card">
+            <div>Watch Out</div>
+            <img className="img-crd" src="https://res.cloudinary.com/dhqfwgeap/image/upload/v1653421494/su4sh4wp1e3n9f7cqwag.png" alt="Project Hopper" />
+        </div>
     </div>
   )
 }
