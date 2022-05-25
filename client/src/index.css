@@ -53,6 +53,15 @@ body {
   height: 200px;
   width: 300px;
 }
+@media screen and (min-width: 600px) {
+  .img-crd:hover {
+    margin-top:8px;
+    vertical-align: middle;
+    transform: scale(1.5);
+    position: flex;
+    transition: transform 0.25s ease;
+  }
+}
 
 .contact-cont {
   display: flex;

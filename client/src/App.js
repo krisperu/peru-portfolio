@@ -33,11 +33,12 @@ function App() {
               <Animator animation={MoveIn(-1000, 0)}>JavaScript</Animator>
               <Animator animation={MoveIn(1000, 0)}>React</Animator>
               <Animator animation={MoveIn(-1000, 0)}>Ruby</Animator>
-              <Animator animation={MoveIn(1000, 0)}>Rails</Animator>Rest API
-              <Animator animation={MoveOut(1000, 0)}>HTML</Animator>
-              <Animator animation={MoveOut(-1000, 0)}>CSS</Animator>
-              <Animator animation={MoveOut(1000, 0)}>SQLite</Animator>
-              <Animator animation={MoveOut(-1000, 0)}>Active  Record</Animator>
+              <Animator animation={MoveIn(1000, 0)}>Rails</Animator>
+              <Animator animation={MoveIn(-1000, 0)}>Rest API</Animator>
+              <Animator animation={MoveIn(1000, 0)}>HTML</Animator>
+              <Animator animation={MoveIn(-1000, 0)}>CSS</Animator>
+              <Animator animation={MoveIn(1000, 0)}>SQLite</Animator>
+              <Animator animation={MoveIn(-1000, 0)}>Active  Record</Animator>
             </span>
           </div>
         </ScrollPage>
