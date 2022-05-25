@@ -52,6 +52,7 @@ function App() {
           <span className="title">Contact Me</span>
           <Contact />
           <br />
+          <br />
         </ScrollPage>
         {/* <ScrollPage page={6}>
           <div className="contact">
