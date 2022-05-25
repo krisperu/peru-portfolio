@@ -11,10 +11,36 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-size: 30px;
+}
+
+.name {
+  font-size: 2em;
 }
 
 .title {
-  font-size: 400%;
+  font-size: 40px;
+}
+
+.bio {
+  background-color: black;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100%;
+}
+
+.skills {
+  background-color: black;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100%;
+}
+
+.pic {
+  width: 100%;
+  height: 100%;
 }
 
 .project-container {
@@ -22,18 +48,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
-.skill-cont {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-/* .skill {
-  padding: 5px;
-  background-color: rgba(121, 132, 166, 0.5);
-} */
 
 .img-crd {
   height: 200px;
@@ -50,7 +64,6 @@ body {
   border-right: solid rgb(70, 67, 67);
   border-width: 0 3px 3px 0;
 }
-
 
 a {
   color: white;

@@ -1,7 +1,8 @@
 import React from 'react'
 import Projects from './Projects'
+import Bio from './Bio'
+import Contact from './Contact'
 import Fader from 'react-reveal/Fade';
-import Slide from 'react-reveal/Slide';
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 
 
@@ -15,19 +16,20 @@ function App() {
         <ScrollPage page={0}>
           <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
             <Fader right cascade>
-              <span className="title">Kristina Peru</span>
+              <span className="name">Kristina Peru</span>
             </Fader>
           </Animator>
         </ScrollPage>
         <ScrollPage page={1}>
-          {/* <Animator animation={ZoomInScrollOut}>
-            <span style={{ fontSize: "40px" }}>My name is Kristina Peru. I am a software engineer based in Denver, Colorado. My hobbies include reading and spending time with my dog.</span>
-          </Animator> */}
-          <span style={{ fontSize: "40px" }}>My name is Kristina Peru. I am a software engineer based in Denver, Colorado. My hobbies include reading and spending time with my dog.</span>
+            <img className="pic" src="https://res.cloudinary.com/dhqfwgeap/image/upload/v1653507849/mxea4pkcy6xslvu42zzl.png" alt="stripe"/>
         </ScrollPage>
         <ScrollPage page={2}>
-          <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100%" }} >
-            <span style={{ fontSize: "40px" }}>
+            <Bio />
+        </ScrollPage>
+        <ScrollPage page={3}>
+          <div className="skills">
+            <span>
+              <div className="title">Skills</div>
               <Animator animation={MoveIn(-1000, 0)}>JavaScript</Animator>
               <Animator animation={MoveIn(1000, 0)}>React</Animator>
               <Animator animation={MoveIn(-1000, 0)}>Ruby</Animator>
@@ -39,43 +41,22 @@ function App() {
             </span>
           </div>
         </ScrollPage>
-        <ScrollPage page={3}>
-          <Projects />
-          <Animator animation={FadeUp}>
-            <span style={{ fontSize: "40px" }}>Projects</span>
-          </Animator>
-        </ScrollPage>
         <ScrollPage page={4}>
-          <Animator animation={batch(Fade(), Sticky())}>
-            <span style={{ fontSize: "40px" }}>Contact Me</span>
-            <br/>
-            <span style={{ fontSize: "30px" }}>
-                <div className="contact">krissy.germanov@gmail.com</div>
-              <div className="contact-cont">
-                {/* <div className="divider"/> */}
-                <div className="contact">
-                  <a href="https://www.linkedin.com/in/kristina-peru/" target="_blank" rel="noopener noreferrer">Linked In</a>
-                </div>
-                <div className="divider"/>
-                <div className="contact">
-                  <a href="https://github.com/krisperu" target="_blank" rel="noopener noreferrer">GitHub</a>
-                </div>
-                <div className="divider"/>
-                <div className="contact">
-                  <a href="https://huntr.co/p/kristina-peru" target="_blank" rel="noopener noreferrer">Huntr</a>
-                </div>
-                <div className="divider"/>
-                <div className="contact">
-                  <a href="https://docs.google.com/document/d/e/2PACX-1vTyhjeUg9HsquV_xLDq2pomMyzIgTsdyRVb8wW7yaXYpyELZbaeMsl3sedu5dZ9vuxipq-j9iFAAsTm/pub" target="_blank" rel="noopener noreferrer">Resume</a>
-                </div>
-                <div className="divider"/>
-                <div className="contact">
-                  <a href="https://dev.to/krisperu" target="_blank" rel="noopener noreferrer">Blog</a>
-                </div>
-              </div>
-            </span>
-          </Animator>
+            <img className="pic" src="https://res.cloudinary.com/dhqfwgeap/image/upload/v1653507969/uewpbldddydmmupvakt4.png" alt="stripe"/>
         </ScrollPage>
+        <ScrollPage page={5}>
+          <Fader right cascade><div className="title">Projects</div></Fader>
+          <br />
+          <Projects />
+          <br />
+          <span className="title">Contact Me</span>
+          <Contact />
+          <br />
+        </ScrollPage>
+        {/* <ScrollPage page={6}>
+          <div className="contact">
+          </div>
+        </ScrollPage> */}
       </ScrollContainer>
     </div>
   );
