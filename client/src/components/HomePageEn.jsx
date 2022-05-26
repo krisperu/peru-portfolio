@@ -53,7 +53,7 @@ function HomePageEn() {
           <br />
           <br />
           <Contact />
-          <div classname="break"/>
+          <br />
     </div>
   );
 }

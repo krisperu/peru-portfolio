@@ -52,7 +52,7 @@ function HomePageRu() {
           <br />
           <br />
           <Contact />
-      <div classname=" break"/>
+          <br />
     </div>
   );
 }
