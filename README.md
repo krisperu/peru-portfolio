@@ -25,6 +25,6 @@ Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
 * [React Reveal](https://github.com/rnosov/react-reveal)
 * [React Scroll](https://github.com/1000ship/react-scroll-motion)
 
-## Author
+## Author..
 
 Kristina Peru | [GitHub](https://github.com/krisperu) | [LinkedIn](https://www.linkedin.com/in/kristina-peru-205557189/)
