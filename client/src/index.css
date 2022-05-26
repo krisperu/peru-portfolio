@@ -25,9 +25,15 @@ body {
 .bio {
   background-color: black;
   display: flex;
+  flex-direction: column;
   justify-content: center; 
   align-items: center; 
   height: 100%;
+}
+
+.bio-desc {
+  width: 80%;
+  
 }
 
 .skills {

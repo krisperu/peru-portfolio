@@ -1,15 +1,12 @@
 import React from 'react'
-import Projects from './Projects'
-import Bio from './Bio'
-import Contact from './Contact'
+import Projects from './components/Projects'
+import Bio from './components/Bio'
+import Contact from './components/Contact'
 import Fader from 'react-reveal/Fade';
-import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, MoveIn, MoveOut, Sticky } from "react-scroll-motion";
 
 
 function App() {
-  const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
-  const FadeUp = batch(Fade(), Move(), Sticky());
-
   return (
     <div className="App">
       <ScrollContainer>
@@ -55,10 +52,6 @@ function App() {
           <br />
           <br />
         </ScrollPage>
-        {/* <ScrollPage page={6}>
-          <div className="contact">
-          </div>
-        </ScrollPage> */}
       </ScrollContainer>
     </div>
   );
