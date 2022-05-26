@@ -5,17 +5,33 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgba(22, 24, 30);
   color: white;
-  text-align: center;
   background-image: url(./images/pexels-adrien-olichon-2387793.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 30px;
+}
+
+.App {
+  text-align: center;
+  font-size: 25px;
 }
 
 .name {
   font-size: 2em;
+  text-align: center;
+}
+
+.language {
+  text-align: right;
+  /* padding: 10px; */
+  font-size: 20px;
+}
+
+.t {
+  text-align: right;
+  padding: 10px;
+  font-size: 20px;
 }
 
 .title {
@@ -83,4 +99,8 @@ body {
 a {
   color: white;
   text-decoration: none;
+}
+
+.break {
+  height: 10px;
 }
