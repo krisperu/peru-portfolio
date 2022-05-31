@@ -27,7 +27,7 @@ function App() {
             background: "#EDEADE",
           }}
           >
-          <div className="language">🇷🇺 РУ</div>
+          <div className="language">РУ</div>
           </NavLink> 
           <HomePageEn />
         </div>
@@ -44,7 +44,7 @@ function App() {
           background: "#EDEADE",
         }}
         >
-        <div className="language">🇺🇸 US</div>
+        <div className="language">US</div>
         </NavLink> 
         <HomePageRu />
         </div>
