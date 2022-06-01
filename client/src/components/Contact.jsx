@@ -21,7 +21,7 @@ function Contact() {
             </div>
             <div className="divider"/>
             <div className="contact">
-                <a href="https://docs.google.com/document/d/e/2PACX-1vRgaqk5AlFaM4GgRdk7VzVO4ncwed2NOYxHkHwmYuxDFqIf68Z9MCEOijjAIXmQEQ/pub" target="_blank" rel="noopener noreferrer">Resume</a>
+                <a href="https://drive.google.com/file/d/1_pI7lcHIQLmQHXaNRLGeo8XJtByGDnMx/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
             <div className="divider"/>
             <div className="contact">
